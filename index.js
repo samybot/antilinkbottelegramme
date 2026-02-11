@@ -1,6 +1,6 @@
 const TelegramBot = require('node-telegram-bot-api');
 
-const TOKEN = "COLLE_TON_TOKEN_ICI";
+const TOKEN = "8330813115:AAG682O3vGJYFekET4cu0QFw1UsuA17jbns";
 const bot = new TelegramBot(TOKEN, { polling: true });
 
 const linkRegex = /(https?:\/\/|www\.|t\.me|\.com|\.net|\.org)/i;
